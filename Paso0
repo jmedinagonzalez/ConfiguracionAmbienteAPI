@@ -19,6 +19,7 @@ Una Vez Actualizadas las dependencias se deben instalar las Herramientas a utili
 1 Burp Suite Community Edition o Profesional
   Una vez instalado, se debe agregar Jython a extender, jython es una implementacion de pyhton para java, con el fin de ejecutar Scripts
   https://www.jython.org/download.html, una vez descargado se debe agregar el archivo .jar a extender con el fin de integrarlo 
+  Una vez agregada la extension instalaremos Autorize desde la BAAp
 
 2 FoxyProxy para el navegador Mozilla
 3 Instalar el certificado de Burp a mozilla
