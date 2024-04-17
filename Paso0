@@ -1,0 +1,32 @@
+Configuracion de laboratorio en Kali Linux
+https://www.kali.org/get-kali/#kali-virtual-machines 
+
+La documentacion la encuentras aca (https://www.kali.org/docs/installation/).
+Las credenciales por defecto son las siguientes:
+User: kali
+Pass: kali
+Una vez ingresado al sistema es necesario actualizarlo para evitar tener fallos por librerias o dependencias deprecadas:
+$ sudo apt update -y
+$ sudo apt upgrade -y
+$ sudo apt dist-upgrade -y
+Una vez actualizado el sistema es recomendable actualizar las credenciales del mismo, ya que es una mala practica dejar credenciales por defecto en cualquier tipo de sistema:
+$ sudo passwd PassNueva
+$ sudo useradd -m UsuarioNuevo
+$ sudo usermod -a -G sudo UsuarioNuevo
+$ sudo chsh -s /bin/zsh UsuarioNuevo
+
+Una Vez Actualizadas las dependencias se deben instalar las Herramientas a utilizar:
+1 Burp Suite Community Edition o Profesional
+  Una vez instalado, se debe agregar Jython a extender, jython es una implementacion de pyhton para java, con el fin de ejecutar Scripts
+  https://www.jython.org/download.html, una vez descargado se debe agregar el archivo .jar a extender con el fin de integrarlo 
+
+2 FoxyProxy para el navegador Mozilla
+3 Instalar el certificado de Burp a mozilla
+4 Instalar Postman
+5 Instalar Git
+6 Instalar Docker
+7 Instalar Go
+8 Instalar Json Web Token Toolkitv2
+9 Instalar Sublime Text
+10 Instlar Kiterunner
+11 Instalar Arjun
